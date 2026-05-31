@@ -70,6 +70,3 @@ export default Blockly => {
 
     return Blockly;
 };
-if (typeof window !== 'undefined') {
-    window.registerGenerators = registerGenerators;
-}
